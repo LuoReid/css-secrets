@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS-Secrets</title>
+  <link href="./css/main.css" rel="stylesheet" >
+  <script src="./js/tool.js"></script>
+</head>
+
+<body>
+  <p>Myth</p>
+  <pre>
+  :root {
+    --purple: #847AD1;
+    --large: 20px;
+    --pd: 5px;
+  }
+  
+  span {
+    color: var(--purple);
+  }
+  
+  pre {
+    margin: calc(var(--large) * 2);
+    padding: var(--large);
+    color: color(var(--purple) tint(20%));
+  }
+  
+  pre:hover {
+    color: var(--purple);
+  }
+</pre>
+  <span>this is a span</span>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+:root {
+  --purple: #847AD1;
+  --large: 20px;
+  --pd: 5px;
+}
+
+span {
+  color: var(--purple);
+}
+
+pre {
+  margin: calc(var(--large) * 2);
+  padding: var(--large);
+  color: color(var(--purple) tint(20%));
+}
+
+pre:hover {
+  color: var(--purple);
+}
